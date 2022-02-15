@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+
+* {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.coin-app {
+  margin: 60px auto;
+  max-width: 1024px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.coin-input {
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.coin-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 30px 0 0 0;
 }
 
-.App-link {
-  color: #61dafb;
+.coin-table th {
+  padding: 20px 10px;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.coin-table td {
+  padding: 10px;
+}
+
+.coin-table th.active,
+.coin-table td.active {
+  background-color: #f9f9f9;
+}
+
+.coin-table th {
+  border-bottom: 2px solid #dee2e6;
+  font-weight: bold;
+}
+
+.coin-table td {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.coin-data {
+  text-align: left;
 }

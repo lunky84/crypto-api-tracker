@@ -1,0 +1,37 @@
+
+.name {
+    text-align: left;
+}
+
+.name img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.symbol {
+    text-transform: uppercase;
+}
+
+.current_price {
+    width: 110px;
+    text-align: right;
+}
+
+.total_volume {
+    width: 155px;
+    text-align: right;
+}
+
+.market_cap {
+    width: 230px;
+    text-align: right;
+}
+
+.price_change_percentage_24h .red {
+    color: #f00606;
+}
+
+.price_change_percentage_24h .green {
+    color: #11d011;
+}
